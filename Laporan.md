@@ -170,22 +170,26 @@ Model klasifikasi ini bertujuan membantu mendeteksi risiko diabetes lebih dini, 
 ### Visualisasi
 
 ### Distribusi
-![Distribusi](https://github.com/user-attachments/assets/b97926a7-f963-43f0-bbf8-8c0dcda1d4b2)
+![Distribusi](https://github.com/user-attachments/assets/c3ae6458-c6a8-4fee-9ac6-c0c4ed9182b7)
+
 
 ### Korelasi
-![Korelasi](https://github.com/user-attachments/assets/30c1a4db-dba6-4816-ab77-ca75265b6f15)
+![Korelasi](https://github.com/user-attachments/assets/31f8157c-ad9b-40f5-aa56-be18e83b9eb6)
+
 
 ---
 
 ### Logistic Regression
-![Logistic Regression - Grafik 1](https://github.com/user-attachments/assets/dd792c31-7899-4e6f-b383-17c52aede19e)
-![Logistic Regression - Grafik 2](https://github.com/user-attachments/assets/2cb87818-38dd-426f-8532-0f56714f5c75)
+![Logistic 1](https://github.com/user-attachments/assets/14999eb6-b8c3-49a4-885e-e8c684f273b0)
+![Logistic 2](https://github.com/user-attachments/assets/6d5cb1fd-de0c-408a-930c-736a75d0e912)
+
 
 ---
 
 ### Random Forest
-![Random Forest - Grafik 1](https://github.com/user-attachments/assets/6cc6f4ac-f304-44d2-8072-1582b91a48b2)
-![Random Forest - Grafik 2](https://github.com/user-attachments/assets/569a86d7-6cae-4dc2-90e9-90ee4f25c594)
+![random 1](https://github.com/user-attachments/assets/5f572e42-f973-428a-88ed-e109b60cff1c)
+![random 2](https://github.com/user-attachments/assets/8054bee5-27d0-4598-82af-e581fb4ae7ff)
+
 
 
 
