@@ -54,9 +54,14 @@ Missing value pada `anime.csv` sebagai berikut:
 - `rating`: 230 missing
 
 ### Exploratory Data Analysis (EDA)  
-- Distribusi rating sebagian besar berkisar antara 6-8.  
-- Anime dengan genre Action dan Comedy memiliki jumlah anggota terbanyak.  
-- Distribusi jumlah rating per user mayoritas antara 50-200 rating.
+![rating](https://github.com/user-attachments/assets/b542670f-a83d-495a-a8dd-a211ca1acb99)
+- Berdasarkan distribusi, mayoritas pengguna memberikan penilaian di sekitar nilai 8, yang merupakan rating dengan frekuensi tertinggi. Meski begitu, masih banyak juga pengguna yang memberikan rating rendah, terutama antara 2 hingga 4, yang menunjukkan adanya ketidakpuasan dari sebagian pengguna. Rating tinggi seperti 9 dan 10 memang ada, tetapi jumlahnya lebih sedikit dibandingkan rating 8.
+  
+![genre](https://github.com/user-attachments/assets/850fc098-5493-414c-ac71-583da799abf4)
+- Berdasarkan grafik, genre anime yang paling populer adalah Comedy, dengan jumlah judul yang jauh lebih banyak dibandingkan genre lainnya. Selain itu, genre seperti Action, dan SCI-FI juga cukup populer dan sering muncul dalam berbagai judul anime.
+  
+![anime populer](https://github.com/user-attachments/assets/f5c189b4-abb3-4b0f-a515-843b297c6b74)
+- Grafik ini menunjukkan 10 anime terpopuler berdasarkan jumlah anggota komunitas (members) yang mengikutinya. Anime Death Note merupakan anime paling populer dengan jumlah anggota komunitas tertinggi, mencapai lebih dari 1 juta member. Dalam urutan berikutnya, Shingeki no Kyojin dan Sword Art Online juga sangat populer
 
 ## 4. Data Preparation
 
@@ -97,19 +102,18 @@ Kekurangan model:
 Metrik evaluasi yang digunakan:  
 
 - **Root Mean Squared Error (RMSE)**  
-  \[
-  RMSE = \sqrt{\frac{1}{N} \sum_{i=1}^{N} (y_i - \hat{y}_i)^2}
-  \]
+![download](https://github.com/user-attachments/assets/d67f7ae8-6351-4caf-a75c-ef5edd30e1bb)
+
 
 - **Mean Absolute Error (MAE)**  
-  \[
-  MAE = \frac{1}{N} \sum_{i=1}^{N} |y_i - \hat{y}_i|
-  \]
+![MAE](https://github.com/user-attachments/assets/f561812d-7c1e-4d45-9507-2d9a679e40e4)
+
 
 Dimana:  
 - \( y_i \) adalah rating asli,  
 - \( \hat{y}_i \) adalah rating hasil prediksi,  
-- N adalah jumlah sampel.
+- \( N \) adalah jumlah sampel.
+
 
 **Hasil Evaluasi**
 - RMSE: 0.1537
